@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "1202",
+      "fullName": "Manuel Fuentes",
+      "address": "Guatemala, Guatemala",
+      "status": "Active",
+      "gender": "Male",
+      "imageId": "1"
+    },
+    {
+      "fullName": "Carolina Suarez",
+      "address": "Zona 12, Guatemala",
+      "gender": "Female",
+      "status": "active",
+      "imageId": "1",
+      "id": "Q7yfsQa"
+    }
+  ]
+}
