@@ -5,10 +5,6 @@
     const deps = require("./package.json").dependencies;
     module.exports = {
     mode: "production",
-    output: {
-        publicPath: "http://users-mcuniversity.s3-website-us-east-1.amazonaws.com/",
-    },
-
     resolve: {
         extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
     },

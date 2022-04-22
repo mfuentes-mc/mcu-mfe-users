@@ -5,9 +5,6 @@
     const deps = require("./package.json").dependencies;
     module.exports = {
     mode: "development",
-    output: {
-        publicPath: "http://localhost:4201/",
-    },
 
     resolve: {
         extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
