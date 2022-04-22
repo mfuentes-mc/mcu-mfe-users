@@ -8,7 +8,6 @@ import store from "../redux/store/store";
 
 const UsersRouters = () => {
     return (
-        <BrowserRouter>
             <Provider store={store}>
                 <Routes>
                     <Route path="/" element={<UsersScreen/>}/>
@@ -17,7 +16,6 @@ const UsersRouters = () => {
                     <Route path="/users/edit/:id" element={<UsersEdit/>}/>
                 </Routes>
             </Provider> 
-        </BrowserRouter>
     )
 }
 export default UsersRouters;
