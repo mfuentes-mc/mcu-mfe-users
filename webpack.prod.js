@@ -6,7 +6,7 @@
     module.exports = {
     mode: "production",
     output: {
-        publicPath: "http://users-mcuniversity.s3-website-us-east-1.amazonaws.com/",
+        publicPath: "http://d1e4fzm2041a2b.cloudfront.net/",
     },
     resolve: {
         extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
