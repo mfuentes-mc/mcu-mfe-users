@@ -7,6 +7,8 @@
     mode: "production",
     output: {
         publicPath: "http://d1e4fzm2041a2b.cloudfront.net/",
+        chunkFilename: "[name].[contenthash].js",
+        filename: "[name].[contenthash].js",
     },
     resolve: {
         extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
