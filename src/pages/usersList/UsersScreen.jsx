@@ -10,11 +10,7 @@ export const UsersScreen = () => {
             <h1>Users List S3</h1>
           </div>
           <div className="col">
-            <a 
-              href="/users/new"
-              className="btn d-block d-md-inline-block px-md-5 btn-primary"
-            >New User
-            </a>
+            
           </div>
         </div>
       </div>
